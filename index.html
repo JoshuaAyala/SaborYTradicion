@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sabor y Tradición</title>
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <style>
+            /* Estilos para el header */
+            .header {
+                background-image: url('https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?cs=srgb&dl=pexels-pixabay-260922.jpg&fm=jpg');
+                background-size: cover;
+                height: 80vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+                text-align: center;
+            }
+
+            .header-content {
+                max-width: 600px;
+            }
+
+            /* Estilos para las secciones */
+            .section {
+                padding: 60px 0;
+            }
+
+            /* Estilos para el menú */
+            .menu-category {
+                margin-top: 30px;
+            }
+
+            .menu-item {
+                margin-bottom: 20px;
+                border: 1px solid #ccc;
+                padding: 15px;
+                border-radius: 5px;
+            }
+
+            .menu-item img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 5px;
+            }
+
+            .menu-item h4 {
+                margin-top: 10px;
+                margin-bottom: 5px;
+            }
+
+            .price {
+                color: #356adc;
+                font-weight: bold;
+            }
+
+            /* Estilos para el footer */
+            .footer {
+                background-color: #f1f1f1;
+                padding: 20px;
+                text-align: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Sabor y Tradición</a>
+        </nav>
+
+        <header class="header">
+            <div class="header-content">
+                <h1>Bienvenidos a Sabor y Tradición</h1>
+                <p>Disfruta de una exquisita selección de platos preparados por
+                    nuestros talentosos chef.</p>
+                <a href="#menu" class="btn btn-primary">Ver Menú</a>
+            </div>
+        </header>
+        <section id="menu" class="section bg-light">
+            <div class="container">
+                <h2>Menú</h2>
+                <div class="menu-category row">
+                    <div class="col-md-6">
+                        <h3>Entrantes</h3>
+                        <div class="menu-item">
+                            <img src="https://deliciaskitchen.com/wp-content/uploads/2022/07/ensalada-caprese-receta-original-italiana.jpg" alt="Entrante 1">
+                            <h4>Ensalada Caprese</h4>
+                            <p>Tomates frescos, mozzarella de búfala, albahaca, aceite de oliva y vinagre balsámico.</p>
+                            <span class="price">$100</span>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://www.comedera.com/wp-content/uploads/2022/08/Ceviche-de-camarones-ecuatoriano-shutterstock_1997166494.jpg" alt="Entrante 2">
+                            <h4>Ceviche de Camarones</h4>
+                            <p>Camaroncitos frescos marinados en jugo de limón, cebolla, cilantro y ají amarillo.</p>
+                            <span class="price">$120</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Platos Principales</h3>
+                        <div class="menu-item">
+                            <img src="https://i.ytimg.com/vi/C1ksH-WG2T4/maxresdefault.jpg" alt="Plato Principal 1">
+                            <h4>Fetuccini Alfredo</h4>
+                            <p>Fetuccini al dente bañado en una cremosa salsa de queso parmesano y mantequilla.</p>
+                            <span class="price">$220</span>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://i.blogs.es/5620ff/lomo-saltado-dap/840_560.jpg" alt="Plato Principal 2">
+                            <h4>Lomo Saltado</h4>
+                            <p>Trozos de lomo saltados con cebolla, tomate, ají amarillo y acompañados de papas fritas.</p>
+                            <span class="price">$280</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Postres</h3>
+                        <div class="menu-item">
+                            <img src="https://img2.rtve.es/v/6897051?w=1600&preview=1684846584492.jpg" alt="Postre 1">
+                            <h4>Tiramisú</h4>
+                            <p>Delicioso postre italiano de capas de bizcocho empapado en café y crema de mascarpone.</p>
+                            <span class="price">$89</span>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://www.kikkoman.eu/fileadmin/_processed_/b/0/csm_1077_rich-dark-chocolate-mousse_1080x720_af9521269e.jpg" alt="Postre 2">
+                            <h4>Mousse de Chocolate</h4>
+                            <p>Mousse suave y cremoso de chocolate con un toque de vainilla y frutos rojos.</p>
+                            <span class="price">$99</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Bebidas</h3>
+                        <div class="menu-item">
+                            <img src="https://www.finedininglovers.com/es/sites/g/files/xknfdk1706/files/styles/recipes_1200_800_fallback/public/2023-03/margarita%C2%A9iStock.jpg?itok=Ir0T3tYT" alt="Bebida 1">
+                            <h4>Margarita</h4>
+                            <p>Cóctel refrescante a base de tequila, licor de naranja y jugo de limón.</p>
+                            <span class="price">$75</span>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://i.blogs.es/1457b8/como-preparar-mojitos-trucos-lotes-grandes-amigos-bebida-coctel/650_1200.jpg" alt="Bebida 2">
+                            <h4>Mojito</h4>
+                            <p>Clásico cóctel cubano con ron, menta fresca, lima, azúcar y soda.</p>
+                            <span class="price">$65</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>© 2023 Sabor y Tradición. Todos los derechos reservados.</p>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>
